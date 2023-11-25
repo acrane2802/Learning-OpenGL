@@ -7,7 +7,7 @@ endif()
 
 project ("Learning OpenGL")
 
-add_executable (CMakeTarget "Learning OpenGL.cpp" "Learning OpenGL.h")
+add_executable (CMakeTarget "src/Learning OpenGL.cpp" "src/Learning OpenGL.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeTarget PROPERTY CXX_STANDARD 20)
